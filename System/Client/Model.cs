@@ -1,10 +1,10 @@
 ﻿namespace System.Client
 {
     using System.Collections.Generic;
-     /* cliente é dono de um endereço */
+     /* cliente pode ser dono de endereços */
     public class Model : Address.Owner.Interface
     {
-        /* cliente tem um endereço */
+        /* cliente pode ter endereços */
         public IEnumerable<Address.Model> Addresses { get; set; }
     }
 }
